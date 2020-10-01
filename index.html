@@ -3,59 +3,49 @@
  <head>
      <title>TreedomHomepage</title>
      <link rel="stylesheet" href="homepagecss.css">
-     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> credit to https://www.w3schools.com/icons/fontawesome5_intro.asp -->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </head>
-
+ 
  <body>
-     <!-- insight from https://www.youtube.com/watch?v=48IhBi8JUWw -->
-    <div class="verticalMenuIcon" id="verticalMenuIcon" onclick="verticalMenuToggle()">
-        <span class="material-icons" id="listIcon">
-            view_headline
-        </span>  
-    </div> 
-    
-    <div class="verticalMenuItems" id="verticalMenuItems">
-        <a href="#">
-            <i class="material-icons">photo_camera</i>
-        </a>
-        <a href=file:///C:/Users/Treedom%20Zhang/Desktop/Homepagehtmlcss/HTML1.html > 
-            <i class="material-icons">movie</i>
-        </a>
-        <a href="#">
-            <i class="material-icons">description</i>
-        </a>
-    </div>
-
-    <script type="text/javascript">
-        var i=0;
-        function verticalMenuToggle(){
-            if(i==0){
-                document.getElementById("listIcon").style.
-                transorm='rotate(-180deg)'; //This is not what I imagined
-                document.getElementById("verticalMenuItems").style.
-                left='0';
-                i=1;
-            }
-            else{
-                document.getElementById("listIcon").style.
-                 transorm='rotate(0deg)';//This is not what I imagined
-                document.getElementById("verticalMenuItems").style.
-                left='-100px';
-                i=0;
-            }
-        }
-    </script>
+     
 
     <div class="Caption">
-       <p>
+       <p id="See">
         Use your eyes to see this beautiful world.
        </p>
        <p id="center">
         去看见。
        </p>
     </div>
+
+    <div class="About">
+        <p>
+            “If your pictures aren’t good enough you’re not close enough.”  --Robert Capa. 
+        </p>
+        <p>
+            If you find the world dull and not good enough, please stand closer. This website invites you to observe the world, sense its beauty, and record the ephemeral. 
+        </p>
+    </div>
+
+    <div class="navbar">
+        <a  href="#home">Home</a>
+        <a  href="#news">Contact</a>
+        <div  class="dropdown">
+          <button class="dropbtn">Works
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="file:///C:/Users/Treedom%20Zhang/Desktop/Homepagehtmlcss/HTML2.html">Video</a>
+            <a href="#">Photograph</a>
+            <a href="#">Choreography</a>
+            <a href="#">Article</a>
+          </div>
+        </div> 
+      </div>
+
+      
+
+      
 
  </body>
 </html>
