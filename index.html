@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>TreedomHomepage</title>
+     <link rel="stylesheet" href="homepagecss.css">
+     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> credit to https://www.w3schools.com/icons/fontawesome5_intro.asp -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+ </head>
+
+ <body>
+     <!-- insight from https://www.youtube.com/watch?v=48IhBi8JUWw -->
+    <div class="verticalMenuIcon" id="verticalMenuIcon" onclick="verticalMenuToggle()">
+        <span class="material-icons" id="listIcon">
+            view_headline
+        </span>  
+    </div> 
+    
+    <div class="verticalMenuItems" id="verticalMenuItems">
+        <a href="#">
+            <i class="material-icons">photo_camera</i>
+        </a>
+        <a href=file:///C:/Users/Treedom%20Zhang/Desktop/Homepagehtmlcss/HTML1.html > 
+            <i class="material-icons">movie</i>
+        </a>
+        <a href="#">
+            <i class="material-icons">description</i>
+        </a>
+    </div>
+
+    <script type="text/javascript">
+        var i=0;
+        function verticalMenuToggle(){
+            if(i==0){
+                document.getElementById("listIcon").style.
+                transorm='rotate(-180deg)'; //This is not what I imagined
+                document.getElementById("verticalMenuItems").style.
+                left='0';
+                i=1;
+            }
+            else{
+                document.getElementById("listIcon").style.
+                 transorm='rotate(0deg)';//This is not what I imagined
+                document.getElementById("verticalMenuItems").style.
+                left='-100px';
+                i=0;
+            }
+        }
+    </script>
+
+    <div class="Caption">
+       <p>
+        Use your eyes to see this beautiful world.
+       </p>
+       <p id="center">
+        去看见。
+       </p>
+    </div>
+
+ </body>
+</html>

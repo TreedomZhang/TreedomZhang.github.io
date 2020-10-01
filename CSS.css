@@ -1,0 +1,97 @@
+
+#Welcome{
+    color: white;
+    position: absolute;
+    font-family: "Times New Roman", Courier, monospace;
+    font-size: 80px;
+    font-weight: lighter;
+    font-stretch: ultra-expanded;
+    letter-spacing: 10px;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 20%;
+    margin: 0px;
+ 
+}
+
+body{
+    background-image: url("maskbg.jpg");   
+    padding:0;
+    margin:0;
+}
+
+
+r {width: 500px;margin-left: auto;margin-right: auto; margin-top: 0mm;
+}
+
+
+.Container1{
+    position: absolute;
+    top: 50ex;
+    padding:0 0 0 0ex; 
+    background-color: white;
+    overflow: hidden;  
+    border-radius: 20%; 
+    left:32%;
+}
+
+
+#The_mask{
+    border-radius: 30%;
+}
+
+#link1{
+    position: absolute;
+    top: 480px;
+    right: 290px;
+    font-family: "Avenir Next LT Pro", Courier, monospace;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+header{
+    background: #c5bb9133;
+}
+
+header:after{
+    content: '';
+    display:table;
+    clear:both
+}
+
+nav{
+    float:right
+}
+
+nav ul{
+  margin: 20px;
+  padding: 0;
+  list-style:none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left:80px;
+    padding-top: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Times New Roman", Courier, monospace;
+}
+
+ a>.active, a:hover.activated{ /*credit to https://www.youtube.com/watch?v=oLgtucwjVII */
+    transition: 0.5s;
+    padding:3px;
+    scale (1.2);
+}
+
+video{
+    width: 500px;
+    height: 400px;
+}
