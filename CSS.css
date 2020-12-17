@@ -1,8 +1,8 @@
 
 #Welcome{
-    color: white;
+    color: rgba(34, 33, 30, 0.774);
     position: absolute;
-    font-family: "Times New Roman", Courier, monospace;
+    font-family: Courier, monospace;
     font-size: 80px;
     font-weight: lighter;
     font-stretch: ultra-expanded;
@@ -18,7 +18,7 @@
 
 
 html { 
-    background: url("maskbg.jpg") no-repeat center center fixed; 
+    background: url("homepageimage.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,8 +37,7 @@ r {width: 500px;margin-left: auto;margin-right: auto; margin-top: 0mm;
     padding:0 0 0 0ex; 
     background-color: white;
     overflow: hidden;  
-    border-radius: 20%; 
-    left:32%;
+    size: ;
 }
 
 *{
