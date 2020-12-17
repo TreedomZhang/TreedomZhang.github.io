@@ -1,9 +1,9 @@
 .Caption {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 19%;
   font-family: "Times New Roman", Courier, monospace;
-  font-size: 40px;
+  font-size: 3.4vw;
   font-weight: unset;
   display: flex；
 }
@@ -17,14 +17,17 @@
 
 #colorChangeText {
   align-items: center;
-  display: flex;
   flex-direction: column;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 10%;
+  text-align: center;
+  font-family: Courier, monospace;
+  font-size: 1.3vw;
+  font-weight: unset;
   color: white;
-  width: 50%;
-  position: absolute;
-  left: 25%;
-  margin-top: 20%;
-  font-size: 25px;
+  width: 14vw;
+  display: flex；
 }
 
 /* this is css for the x and y scroll testing
@@ -43,12 +46,13 @@ html {
 }
 
 .About {
-  position: absolute;
   top: 100%;
-  left: 38%;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 60%;
   text-align: center;
   font-family: Courier, monospace;
-  font-size: 20px;
+  font-size: 1.3vw;
   font-weight: unset;
   color: white;
   width: 400px;
